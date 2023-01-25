@@ -33,14 +33,14 @@ def load_lottieurl(url):
 def local_css(file_name):
     with open(file_name)as f:
       st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
-local_css("C:/Users/admin\Desktop/didas/style/style.css.txt")
+local_css("C:/Users/admin\Desktop/WEBSITE/style/style.css.txt")
 #-----load assets----
 lottie_coding=load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_1LhsaB.json")
-img_contact_form=Image.open("C:/Users/admin/Desktop/didas/images/didaimg2.png")
-img_lottie_animation=Image.open("C:/Users/admin/Desktop/didas/images/prisca2.png")
-img_contact_ibra=Image.open("C:/Users/admin/Desktop/didas/images/ibrah2.png")
-img_lottie_amon=Image.open("C:/Users/admin/Desktop/didas/images/amon1.png")
-img_lottie_christina=Image.open("C:/Users/admin/Desktop/didas/images/christina.png")
+img_contact_form=Image.open("C:/Users/admin/Desktop/WEBSITE/images/didaimg2.png")
+img_lottie_animation=Image.open("C:/Users/admin/Desktop/WEBSITE/images/prisca2.png")
+img_contact_ibra=Image.open("C:/Users/admin/Desktop/WEBSITE/images/ibrah2.png")
+img_lottie_amon=Image.open("C:/Users/admin/Desktop/WEBSITE/images/amon1.png")
+img_lottie_christina=Image.open("C:/Users/admin/Desktop/WEBSITE/images/christina.png")
 
 
 st.subheader("Hi WELCOME TO DREAMFAR Group :wave:")
